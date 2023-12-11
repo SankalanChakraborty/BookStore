@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+.todo-app_actions{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.todo-app_actions input{
+    padding: 5px 10px;
+    width: 255px;
+    font-family: 'Raleway', sans-serif;
+    border: 1px solid gray;
+    outline: none;
+}
+
+.todo-app_actions input{
+    margin-right: 3px;
+}
+
+
+.btn-add{
+    width: 60px;
+    background-color: #0eff16;
+    border: 0;
+    outline: none;
+    padding: 5px;
+    border-radius: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-add:hover{
+    background-color: #12db19;
+}
+
+.todo-cards_section{
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: auto auto auto;
+}

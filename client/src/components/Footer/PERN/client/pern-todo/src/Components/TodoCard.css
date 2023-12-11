@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.todo-card_container, .todo-action_buttons{
+    display: flex;
+}
+
+.todo-card_container{
+    background-color: #f6c192;
+    width: 250px;
+    min-height: 100px;
+    border-radius: 4px;
+    margin: 10px;
+    flex-wrap: nowrap;
+}
+
+.todo-info{
+    width: 80%;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-right: 1px solid gray;
+}
+
+.todo-info h2{
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+    margin: 5px 0;
+}
+
+.todo-info p{
+    color: #292929;
+    font-family: 'Raleway', sans-serif;
+}
+
+.todo-action_buttons{
+    flex-direction: column;
+    width: 20%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.todo-action_buttons span{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.todo-action_buttons .fa-check-double{
+    color: green;
+}
+
+.todo-action_buttons .fa-circle-xmark{
+    color: rgb(222, 8, 8);
+}

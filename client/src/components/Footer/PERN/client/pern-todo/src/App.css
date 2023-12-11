@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+.app-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-container_todo{
+    display: flex;
+    flex-direction: column;
+    min-width: 1000px;
+    min-height: 500px;
+    border-radius: 6px;
+    background-color: #FFDAB9;
+}
+
+.todo-app_heading{
+    background-color: #f6c192;
+    text-align: center;
+    padding: 10px;
+    margin: 25px 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.mode{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.mode i{
+    cursor: pointer;
+}
