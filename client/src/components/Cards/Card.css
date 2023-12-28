@@ -1,24 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
 .card-wrapper{
-    width: 250px;
-    height: 350px;
+    position: relative;
+    width: 225px;
+    height: 300px;
     margin: 20px;
     padding: 5px;
     border-radius: 10px;
-    /* border: 1px solid white; */
+    background-color: #FFFAF0;
     box-shadow: 3px 3px 15px #3b3838;
 }
 
 .book-thumbnail{
     width: 100%;
-    height: 295px;
+    height: 70%;
+}
+
+.book-title{
+    color: black;
 }
 
 .book-title, .book-author{
-    color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .book-author{
+    color: #474545;
+    margin-top: 10px;
     font-weight: 200;
-    font-size: 15px;
+    font-size: 13px;
+    font-style: italic;
+}
+
+.action-btn{
+    position: absolute;
+    right: 7px;
+    top: 9px;
+    color: white;
+    font-size: larger;
+    cursor: pointer;
+}
+
+.options{
+    background-color: white;
+    position: absolute;
+    right: 22px;
+    top: 19px;
+    width: 75px;
+    height:60px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-family: 'Roboto Mono', monospace;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+}
+
+.options li{
+    cursor: pointer;
+    text-align: center;
+    padding: 3px 0;
+    width: 100%;
+}
+
+.options li:hover{
+    background-color: rgb(168, 166, 166);
+    color: white;
+}
+
+.hidden{
+    display: none;
 }
